@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<div class="home">
+  <h2 class="post-list-heading">Posts</h2>
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li class="post-preview-item" style="animation-delay: {{ forloop.index0 | times: 80 }}ms">
+      <a href="{{ post.url | relative_url }}" class="post-preview-link">
+        {% assign thumbnail = post.thumbnail | default: post.cover_image %}
+        {% if thumbnail %}
+        <div class="post-preview-thumbnail">
+          <img src="{{ thumbnail | relative_url }}" alt="{{ post.title }}">
+        </div>
+        {% endif %}
+        <div class="post-preview-content">
+          <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+          <h3 class="post-preview-title">{{ post.title }}</h3>
+          {% if post.excerpt %}
+          <p class="post-preview-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          {% endif %}
+        </div>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+</div>
