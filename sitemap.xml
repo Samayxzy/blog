@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://www.samaygoyani.com/</loc>
+  <lastmod>2026-02-28T04:41:05+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.samaygoyani.com/about/</loc>
+  <lastmod>2026-02-28T04:41:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.samaygoyani.com/2026/02/23/research-paper-mpd.html</loc>
+  <lastmod>2026-02-28T04:41:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.samaygoyani.com/2025/11/10/fixing-openRocket-glitch.html</loc>
+  <lastmod>2026-02-28T04:41:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.samaygoyani.com/2025/10/04/samays-first-rocket.html</loc>
+  <lastmod>2026-02-28T04:41:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.samaygoyani.com/assets/html/Fall_Voltage_as_a_Key_Parameter_in_MPD_Thruster_Performance_Modeling.pdf</loc>
+  <lastmod>2026-02-28T04:41:05+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
