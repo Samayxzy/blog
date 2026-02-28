@@ -22,8 +22,8 @@ title: Samay's Engineering Blog
 email: sgoyani321@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Samay's engineering blog — rockets, MPD thrusters, OpenRocket, and more.
-baseurl: "/blog" # the subpath of your site on GitHub Pages
-url: "https://samayxzy.github.io" # base hostname for GitHub Pages
+url: "https://samaygoyani.com"
+baseurl: ""
 twitter_username:
 github_username: sgoyani321
 
