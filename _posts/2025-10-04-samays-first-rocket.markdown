@@ -2,8 +2,7 @@
 layout: post
 title: "Samay's Rocket Project 1"
 date: 2025-10-04
-cover_image: /assets/images/posts/samays-rocket-project-1/rocket-project-1-cover.jpg
-excerpt: "Building a homemade model rocket with TKOR-inspired parts — from nose cone to launch."
+cover_image: "/assets/images/posts/samays-rocket-project-1/rocket-project-1-cover.jpg"
 ---
 
 # Samay’s Rocket Project #1
