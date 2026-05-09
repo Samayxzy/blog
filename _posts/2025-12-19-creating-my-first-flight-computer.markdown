@@ -2,16 +2,14 @@
 layout: post
 title: "Creating My Very First Flight Computer"
 date: 2025-12-19
-cover_image: "/assets/images/posts/first-research-paper/FlightComputer.jpg"
-# Optional: use thumbnail for a different homepage image (defaults to cover_image)
-# thumbnail: "/assets/images/posts/first-research-paper/custom-thumb.jpg"
+cover_image: "/assets/images/posts/creating-my-first-flight-computer/FlightComputer.jpg"
 excerpt: "Designing the brain behind my TVC rocket system"
 ---
 ## Introduction
 
 One of the biggest parts of my TVC rocket project was creating a custom flight computer from scratch. Instead of using a fully prebuilt solution, I wanted to understand how real flight systems work at both the hardware and software level.
 
-The flight computer acts as the “brain” of the rocket. It reads sensor data, processes orientation and movement, and eventually sends commands to the thrust vector control system to stabilize the rocket during flight.
+The flight computer acts as the "brain" of the rocket. It reads sensor data, processes orientation and movement, and eventually sends commands to the thrust vector control system to stabilize the rocket during flight.
 
 This project ended up teaching me far more than just electronics. It forced me to learn debugging, PCB design decisions, soldering, firmware flashing, wiring management, and how tiny mistakes can completely stop a system from functioning.
 
@@ -32,9 +30,9 @@ The flight computer needed:
 I spent a lot of time planning wiring layouts and component placement so everything would stay compact and lightweight.
 
 
-![Flight Computer Schematic](/assets/images/posts/creating-my-first-flight-computer/FC_schem.jpg)
+![Flight Computer Schematic]({{ '/assets/images/posts/creating-my-first-flight-computer/FC_schem.jpg' | relative_url }})
 
-![Flight Computer Design](/assets/images/posts/creating-my-first-flight-computer/FC_design.jpg)
+![Flight Computer Design]({{ '/assets/images/posts/creating-my-first-flight-computer/FC_design.jpg' | relative_url }})
 
 ---
 
@@ -54,7 +52,7 @@ To fix it, I had to:
 
 It was frustrating because the mistake was small electrically, but fixing it physically took a long time.
 
-![Reset Switch Soldering](/assets/images/posts/creating-my-first-flight-computer/solder.jpg)
+![Reset Switch Soldering]({{ '/assets/images/posts/creating-my-first-flight-computer/solder.jpg' | relative_url }})
 
 
 
@@ -67,7 +65,7 @@ After the hardware was assembled, the next challenge was getting the firmware ru
 This part caused way more issues than I expected.
 
 At different points:
-- The FC wouldn’t flash correctly
+- The FC wouldn't flash correctly
 - Sensors failed to initialize
 - Serial communication randomly stopped
 - Code uploads would fail entirely
@@ -111,7 +109,7 @@ The flight computer is now able to:
 - Interface with the TVC system
 - Run stabilization-related code
 
-There’s still a lot more optimization and testing left to do, but seeing the system finally operate after all the debugging made the process worth it.
+There's still a lot more optimization and testing left to do, but seeing the system finally operate after all the debugging made the process worth it.
 
 ---
 
