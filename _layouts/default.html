@@ -28,7 +28,7 @@
     </div>
   </header>
 
-  <main class="container">
+  <main class="container{% if page.layout == 'home' %} container--feed{% endif %}">
     {{ content }}
   </main>
 
