@@ -80,6 +80,8 @@ Out of curiosity, I decided to try a second launch without reattaching the missi
 
 What’s interesting is that the first flight with all 4 fins had more sideways drift than the second. I concluded that this was due to **Spin Stabilization**. The spinning effect made any misalignment of off-axis force average out over the rotation. Instead of drifting in one direction, the rocket shared the drift in a circular pattern. Here’s the video ⬇️
 
-![MR #1 Launch](../Picture%20Logs/Untitled/MR%20#1%20Launch%20241a7797411880259524eea87cfba152.md) 
+<video controls width="100%" preload="metadata" style="border-radius:12px;">
+  <source src="{{ '/assets/images/posts/samays-rocket-project-1/mr-1-launch.mp4' | relative_url }}" type="video/mp4">
+</video>
 
 Thanks for reading!

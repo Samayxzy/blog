@@ -3,6 +3,7 @@ layout: post
 title: "Building a High Voltage Plasma Generator"
 date: 2026-06-11
 cover_image: "/assets/images/posts/building-a-high-voltage-plasma-generator/plasma-generator-cover.jpg"
+excerpt: "How I built a high voltage plasma generator"
 ---
 
 The core concept is pretty straightforward: take a flyback transformer, which comes straight out of an old CRT television, and drive it with a ZVS (Zero Voltage Switching) driver board to produce extremely high voltages (~20,000 V). At that kind of voltage, air itself breaks down and becomes conductive, forming a glowing plasma arc between electrodes.
@@ -92,7 +93,6 @@ The arc is estimated at around 20,000 V based on its length, running off a 12V i
 
 Here's the video ⬇️
 
-<video controls width="100%">
-  <source src="/assets/images/posts/building-a-high-voltage-plasma-generator/plasma.mov" type="video/quicktime">
-  Your browser does not support the video tag.
+<video controls width="100%" preload="metadata" style="border-radius:12px;">
+  <source src="{{ '/assets/images/posts/building-a-high-voltage-plasma-generator/plasma.mp4' | relative_url }}" type="video/mp4">
 </video>

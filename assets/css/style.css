@@ -537,7 +537,8 @@ p {
   outline-offset: 2px;
 }
 
-.post-content img {
+.post-content img,
+.post-content video {
   max-width: 100%;
   height: auto;
   border-radius: 12px;
