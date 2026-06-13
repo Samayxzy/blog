@@ -5,7 +5,7 @@ date: 2026-02-23
 cover_image: "/assets/images/posts/first-research-paper/research-paper-cover.jpg"
 # Optional: use thumbnail for a different homepage image (defaults to cover_image)
 # thumbnail: "/assets/images/posts/first-research-paper/custom-thumb.jpg"
-excerpt: "Behind-the-scenes look at modeling fall voltage in MPD thrusters, from Desmos graphs to a NASA-style research paper."
+excerpt: "Behind-the-scenes look at modeling fall voltage in MPD thruster."
 ---
 
 # Modeling Fall Voltage in MPD Thrusters - Behind the Scenes
