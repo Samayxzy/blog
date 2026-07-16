@@ -2,6 +2,7 @@
 layout: post
 title: "Samay's Rocket Project 1"
 date: 2025-10-04
+cover_image: "/assets/images/posts/samays-rocket-project-1/rocket-project-1-cover.jpg"
 excerpt: "Building and launching a homemade model rocket from scratch — nose cone, fins, parachute recovery, and spin stabilization."
 ---
 

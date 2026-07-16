@@ -2,6 +2,7 @@
 layout: post
 title: "First Research Paper"
 date: 2026-02-23
+cover_image: "/assets/images/posts/first-research-paper/research-paper-cover.jpg"
 excerpt: "Behind-the-scenes look at modeling fall voltage in MPD thruster."
 ---
 

@@ -2,6 +2,7 @@
 layout: post
 title: "Fixing OpenRocket Glitch"
 date: 2025-11-10
+cover_image: "/assets/images/posts/fixing-openRocket-glitch/openRocket-glitch-cover.jpg"
 excerpt: "How I fixed an OpenRocket setup issue on Windows 11."
 ---
 

@@ -27,11 +27,6 @@ layout: default
         <div class="post-preview-content">
           <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}{% if post.content %} · {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read{% endif %}</span>
           <h3 class="post-preview-title">{{ post.title }}</h3>
-          {% if post.excerpt %}
-          <p class="post-preview-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
-          {% else %}
-          <p class="post-preview-excerpt">{{ post.content | strip_html | truncate: 120 }}</p>
-          {% endif %}
         </div>
       </a>
     </li>

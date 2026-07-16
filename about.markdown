@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Hi, I'm Samay. I'm an engineering student with a focus on aerospace and propulsion.
+Hi, I'm Samay, a passionate young engineer who enjoys learning how things work and then building them myself. I am especially interested in aerospace, propulsion, electronics, and the problem-solving that comes with engineering.
 
-I write about rockets, magnetoplasmadynamic (MPD) thrusters, OpenRocket simulations, and other projects I'm working on. This blog is where I document what I learn and build—from model rockets to research-style papers.
+This site is where I share my projects, ideas, and what I learn along the way. I hope it reflects both the work I am doing now and the curiosity that keeps me looking for the next challenge.
 
 You can reach me at [sgoyani321@gmail.com](mailto:sgoyani321@gmail.com) or find me on [GitHub](https://github.com/Samayxzy).
