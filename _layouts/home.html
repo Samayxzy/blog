@@ -3,7 +3,13 @@ layout: default
 ---
 
 <div class="home">
-  <h2 class="post-list-heading">Posts</h2>
+  <header class="hero">
+    <h1 class="hero-title">{{ site.title }}</h1>
+    <p class="hero-tagline">{{ site.description }}</p>
+    <p class="hero-meta">{{ site.posts.size }} post{% if site.posts.size != 1 %}s{% endif %} · <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a></p>
+  </header>
+
+  <h2 class="post-list-heading">Latest Posts</h2>
   <ul class="post-list">
     {% for post in site.posts %}
     <li class="post-preview-item" style="animation-delay: {{ forloop.index0 | times: 80 }}ms">
@@ -11,19 +17,24 @@ layout: default
         {% assign thumbnail = post.thumbnail | default: post.cover_image %}
         {% if thumbnail %}
         <div class="post-preview-thumbnail">
-          <img src="{{ thumbnail | relative_url }}" alt="{{ post.title }}">
+          <img src="{{ thumbnail | relative_url }}" alt="" loading="lazy">
+        </div>
+        {% else %}
+        <div class="post-preview-thumbnail post-preview-thumbnail--placeholder" aria-hidden="true">
+          <span class="placeholder-icon">↑</span>
         </div>
         {% endif %}
         <div class="post-preview-content">
-          <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+          <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}{% if post.content %} · {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read{% endif %}</span>
           <h3 class="post-preview-title">{{ post.title }}</h3>
           {% if post.excerpt %}
           <p class="post-preview-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          {% else %}
+          <p class="post-preview-excerpt">{{ post.content | strip_html | truncate: 120 }}</p>
           {% endif %}
         </div>
       </a>
     </li>
     {% endfor %}
   </ul>
-  <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
 </div>

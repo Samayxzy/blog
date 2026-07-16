@@ -2,15 +2,8 @@
 layout: post
 title: "First Research Paper"
 date: 2026-02-23
-cover_image: "/assets/images/posts/first-research-paper/research-paper-cover.jpg"
-# Optional: use thumbnail for a different homepage image (defaults to cover_image)
-# thumbnail: "/assets/images/posts/first-research-paper/custom-thumb.jpg"
 excerpt: "Behind-the-scenes look at modeling fall voltage in MPD thruster."
 ---
-
-# Modeling Fall Voltage in MPD Thrusters - Behind the Scenes
-
-Person: Samay Goyani
 
 I ended up diving into **magnetoplasmadynamic (MPD) thrusters**, specifically one small but interesting parameter: **fall voltage**.
 
@@ -68,9 +61,9 @@ I also testing different constant values of fall voltage to see how sensitive ef
 
 Here’s an image of the graph with and without constraints. 
 
-[MPD Study Graph (With Range)](/assets/images/posts/first-research-paper/mpd-study-graph-range.png)
+![MPD Study Graph (With Range)](/assets/images/posts/first-research-paper/mpd-study-graph-range.png)
 
-[MPD Study Graph](/assets/images/posts/first-research-paper/mpd-study-graph.png) 
+![MPD Study Graph](/assets/images/posts/first-research-paper/mpd-study-graph.png) 
 
 What I saw:
 

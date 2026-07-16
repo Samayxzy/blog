@@ -2,13 +2,8 @@
 layout: post
 title: "Fixing OpenRocket Glitch"
 date: 2025-11-10
-cover_image: "/assets/images/posts/fixing-openRocket-glitch/openRocket-glitch-cover.jpg"
 excerpt: "How I fixed an OpenRocket setup issue on Windows 11."
 ---
-
-# Fixing OpenRocket Glitch
-
-Person: Samay Goyani
 
 A couple days ago I ran into an issue while setting up OpenRocket on my Windows 11 Desktop. If you don’t know what OpenRocket is, it’s a great software and tool for simulating rocket flights. But as powerful as it is, it can be a bit difficult to work with.
 

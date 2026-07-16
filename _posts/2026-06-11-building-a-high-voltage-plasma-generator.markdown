@@ -93,6 +93,6 @@ The arc is estimated at around 20,000 V based on its length, running off a 12V i
 
 Here's the video ⬇️
 
-<video controls width="100%" preload="metadata" style="border-radius:12px;">
+<video class="post-video" controls preload="metadata">
   <source src="{{ '/assets/images/posts/building-a-high-voltage-plasma-generator/plasma.mp4' | relative_url }}" type="video/mp4">
 </video>
